@@ -4,11 +4,11 @@
   "private": true,
   "description": "Cross-platform scavenger hunt dApp using Next.js, Expo, IPFS, and Stellar/Soroban.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
     "analyze": "ANALYZE=true next build",
     "bundle:check": "node scripts/check-bundle-size.mjs",
-    "start": "next start",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "test": "vitest --run",
     "test:watch": "vitest",
@@ -101,7 +101,7 @@
     "tailwindcss": "^4.0.0",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5",
-    "vite": "^8.1.0",
-    "vitest": "^4.0.18"
+    "vitest": "^4.0.18",
+    "vite": "^8.1.0"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/onboarding-tour",
+    "feature/leaderboard-updates",
+    "feature/seasonal-leaderboard-resets",
+    "fix/320-prevent-double-submit",
+    "fix/654-optimize-tailwind-css-output",
+    "fix/894-add-concurrency-groups",
+    "hunty2",
+    "main",
+    "origin",
+    "revert-247-abstract"
+  ],
+  "parent": {
+    "feat/onboarding-tour": "main",
+    "feature/leaderboard-updates": "main",
+    "feature/seasonal-leaderboard-resets": "main",
+    "fix/320-prevent-double-submit": "main",
+    "fix/654-optimize-tailwind-css-output": "main",
+    "fix/894-add-concurrency-groups": "main",
+    "hunty2": "main",
+    "main": null,
+    "origin": "main",
+    "revert-247-abstract": "main"
+  },
+  "order": [
+    "main",
+    "feat/onboarding-tour",
+    "feature/leaderboard-updates",
+    "feature/seasonal-leaderboard-resets",
+    "fix/320-prevent-double-submit",
+    "fix/654-optimize-tailwind-css-output",
+    "fix/894-add-concurrency-groups",
+    "hunty2",
+    "origin",
+    "revert-247-abstract"
+  ]
+}
